@@ -1,3 +1,4 @@
+<img width="2637" height="1067" alt="cheapie-ntp" src="https://github.com/user-attachments/assets/e11ee2d2-b783-46c9-a975-1789488b2f2d" />
 # Raspberry Pi Zero W Stratum 2 NTP Server & Triple 7-Segment Clock aka "cheapie-ntp"
 
 I had AI (Gemini) help me build this - it's a simple NTP server running on a Raspberry Pi Zero W using a PoE adapter (though it's not required, that's just how I did it for power and low latency) with three TM1637 clock modules attached. The first one is obviously the hours/minutes, second display is seconds and whether it's AM or PM, third is the data (MM/DD format.) If you'd like to fork this or modify it for your own use (i.e. 24 hr format, etc.) feel free to! I've uploaded the simple stupid display box I designed and 3d printed (though I'm sure it could use some improvement as well.) You wind up with a nice simple little box for fairly cheap (hence the name) as the TM1637 modules can be had off Amazon in a pack of 5 for under $20. 
